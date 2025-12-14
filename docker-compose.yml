@@ -7,5 +7,5 @@ services:
       args:
         - GEMINI_API_KEY=${GEMINI_API_KEY}
     ports:
-      - "80:80"
+      - "8080:80"
     restart: always
